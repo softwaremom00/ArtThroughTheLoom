@@ -1,0 +1,11 @@
+html {
+
+}
+
+.loom {
+  background: url("../images/wovenimage.jpeg");
+  width: 1200px;
+  height: 120px;
+/*  background-size: cover;*/
+
+}
