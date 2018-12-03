@@ -1,11 +1,55 @@
-html {
+body {
+  font-family: Verdana, comic-sans;
+  text-align: center;
+}
+
+
+#web_heading{
+  background: #DDD0C1 url("../images/weavingpage-loom.png") no-repeat center center;
+  background-color: rgba(199,178,153,0.6);
+  background-size: cover;
+  height: 175px;
+  /*width: 1200px;*/
+  background-position: center;
+  align-items: center;
+  text-align: center;
 
 }
 
-.loom {
-  background: url("../images/wovenimage.jpeg");
-  width: 1200px;
-  height: 120px;
-/*  background-size: cover;*/
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  background-color:#c7b299;
+}
+.heading_minor {
+  color: #894819;
+}
 
+
+#navbar {
+  /*background-color:#c7b299;*/
+
+  /*color: #603813 ;*/
+  color: white;
+}
+
+#navbar ul{
+  padding: 0;
+  list-style: none;
+
+}
+
+#navbar li{
+  display: inline;
+
+}
+
+#navbar a{
+    /*color: #603813 ;*/
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+    font-weight: bold;
 }
