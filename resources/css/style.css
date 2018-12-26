@@ -1,6 +1,8 @@
-body {
-  font-family: Verdana, comic-sans;
+html {
+  font-family: Helvetica, comic-sans;
+  font-size: 16px;
   text-align: center;
+  line-height: 1.4rem;
 }
 
 
@@ -13,19 +15,25 @@ body {
   background-position: center;
   align-items: center;
   text-align: center;
-
+  top: 0;
+  padding-top: 0;
 }
 
 .container{
-  width: 80%;
+  width: 960px;
   margin: auto;
-  overflow: hidden;
+  overflow: hidden; /* not sure if I need this */
   background-color:#c7b299;
 }
 .heading_minor {
   color: #894819;
 }
 
+#navbar h1{
+  padding-top: 1rem;
+  font-size: 2rem;
+  color: black;
+}
 
 #navbar {
   /*background-color:#c7b299;*/
@@ -35,6 +43,7 @@ body {
 }
 
 #navbar ul{
+
   padding: 0;
   list-style: none;
 
@@ -52,4 +61,36 @@ body {
     font-size: 18px;
     padding-right: 15px;
     font-weight: bold;
+}
+
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+.events-dyekits{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  text-align:left;
+}
+
+.events-dyekits img{
+  width: 20rem;
+  margin-left: 1em;
+}
+
+.events-dyekits p{
+
+}
+
+.events-dyekits ul{
+  list-style: none;
+}
+
+.festivals-quotes{
+  display: flex;
+  flex-direction: column;
+    width: 40%;
+    text-align:left;
 }
